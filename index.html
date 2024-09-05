@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>Scooby-Doo</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Em um certo dia, a prefeita de Coolsville, Julie Rachel, é raptada e a equipe do Scooby-Doo te convida
+                para tentar solucionar o crime. Há dois caminhos para procurar pistas:</p>
+            <button class="btn-proximo" data-proximo="1">Investigar o mercado.</button>
+            <button class="btn-proximo" data-proximo="2">Investigar a mansão.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/mercadof.jpg" alt="">
+            <p>Chegando no mercado, há alguns funcionários que conhecem a prefeita sequestrada, mas é preciso foco para
+                realizar a missão!</p>
+            <button class="btn-proximo" data-proximo="3">Entrevistar funcionários.</button>
+            <button class="btn-proximo" data-proximo="4">Comer cachorro-quente com Scooby e Salsicha.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/mansao frente.jpg" alt="">
+            <p>Ao chegar na mansão, você e Velma se dividem para procurar pistas sobre o caso.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o quarto.</button>
+            <button class="btn-proximo" data-proximo="6">Investigar a cozinha.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>A funcionária do mercado diz que levou as compras de Julie Rachel para sua mansão no dia anterior e ela mesma recebeu a encomenda.</p>
+            <button class="btn-proximo" data-proximo="7">Ir até a mansão.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/comida.jpg" alt="">
+            <p>Vocês comem muito e não conseguem andar mais. A equipe resolverá o caso sem você.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você encontra um bilhete com uma mensagem de socorro.</p>
+            <button class="btn-proximo" data-proximo="7">Voltar para a sala.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/cozinha.jpg" alt="">
+            <p>Você acha um guardanapo sujo de batom.</p>
+            <button class="btn-proximo" data-proximo="8">Continuar explorando.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/barulho.jpg" alt="">
+            <p>Ao entrar na sala, vocês escutam um barulho estranho vindo do quintal e vão procurar da onde veio.</p>
+            <button class="btn-proximo" data-proximo="9">Ir com cuidado.</button>
+            <button class="btn-proximo" data-proximo="10">Ir com pressa.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você encontra um copo com um líquido ainda quente dentro.</p>
+            <button class="btn-proximo" data-proximo="7">Voltar para sala.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/plano.jpg" alt="">
+            <p>Vocês encontram um monstro escondido e conseguem planejar uma armadilha para capturá-lo.</p>
+            <button class="btn-proximo" data-proximo="11">Capturar o monstro.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/andar.jpg" alt="">
+            <p>Vocês se deparam com um monstro, mas ele sai correndo antes de alcançarem-o.</p>
+            <button class="btn-proximo" data-proximo="12">Seguir os rastros do monstro.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/final.jpg" alt="">
+            <p>Ao capturar o monstro, vocês percebem que, na verdade, era a prefeita disfarçada para conseguir ganhar mais votos. Parabéns, fim do misterio!!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/encurralar.jpg" alt="">
+            <p>Ao seguir os passos, vocês conseguem encurralar o monstro.</p>
+            <button class="btn-proximo" data-proximo="11">Capturar o monstro.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
